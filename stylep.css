@@ -5,13 +5,52 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     list-style: none;
     text-decoration: none;
-    max-width: 99%;
+    max-width: 100%;
     
 
 
     
    
 
+}
+.titulo{
+    font-size: 60px;
+        margin: 40px 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+
+}
+.imagem{
+    width: 30rem;
+    height: 20rem;
+ 
+}
+.cabeçalho{
+    text-align: center;
+    margin: 10rem 40px 2rem 40px;
+    
+}
+.cabeçalho-h2, .cabeçalho-h3{
+    text-align: center;
+    margin: 4rem;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;  
+    
+}
+.btn{
+    
+    padding: 10px;
+    background: rgb(108, 188, 225);
+    border-radius: 20px;
+    text-align: center;
+    display: inline-flex;
+    margin: 7px 210px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: red;
+    color: aliceblue;
 }
 .naveg{
     display: flex;
@@ -86,112 +125,8 @@ body{
 
 
 }
-.titulo{
-    font-size: 60px;
-        margin: 40px 40px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    
-
-}
-.imagem{
-    width: 30rem;
-    height: 20rem;
- 
-}
-.cabeçalho{
-    text-align: center;
-    margin: 10rem 40px 2rem 40px;
-    
-}
-.cabeçalho-h2, .cabeçalho-h3{
-    text-align: center;
-    margin: 4rem;
-    font-size: 2rem;
-    font-family: 'Courier New', Courier, monospace;  
-}
-#peixes{
-    display: flex;
-    margin: 10px 2rem;
-    justify-content: space-between;
-    
-    align-items: center;
-
-    
-}
-#peixes li {
-    margin: 0 3rem;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 33%;
-    
-    
-}
-.btn{
-    
-    padding: 10px;
-    background: rgb(108, 188, 225);
-    border-radius: 20px;
-    text-align: center;
-    display: inline-flex;
-    margin: 7px 210px;
-    cursor: pointer;
-    
-    
-
-}
-#aquarios{
-    display: flex;
-    margin: 10px 2rem;
-    justify-content: space-between;
-    align-items: center;
-  
 
 
-    
-}
-#aquarios li {
-    margin: 0 3rem;
-    justify-content: space-between;
-    max-width: 33%;
-    align-items: center;
-}
-#higienie{
-    display: flex;
-    margin: 10px 2rem;
-    justify-content: space-between;
-    align-items: center;
-   
-
-
-    
-}
-#higienie li {
-    margin: 0 3rem;
-    justify-content: space-between;
-    max-width: 33%;
-    align-items: center;
-}
-#decoração{
-    display: flex;
-    margin: 10px 2rem;
-    justify-content: space-between;
-    align-items: center;
-   
-
-
-    
-}
-#decoração li {
-    margin: 0 3rem;
-    justify-content: space-between;
-    max-width: 33%;
-    align-items: center;
-}
-.btn:hover{
-    background: red;
-    color: aliceblue;
-}
 @media (max-width:785px){
     .naveg{
         padding: 18px 20px;
