@@ -138,6 +138,7 @@ body{
     max-width: 90%;
     align-items: center;
     justify-content: space-between;
+    overflow-x: hidden;
     
 margin: auto;    
        
@@ -146,16 +147,6 @@ margin: auto;
 .t-peixe{
     max-width: 300px; 
 }
-#aquarios {
-    display: flex;
-    max-width: 90%;
-    align-items: center;
-    justify-content: space-between;
-    margin: 50px auto;
-
-    
-           
-}
 
 .desc-aquario h1{
     text-align: center;
@@ -163,15 +154,6 @@ margin: auto;
     
 
     
-}
-#higienie {
-    display: flex;
-    max-width: 90%;
-    align-items: center;
-    justify-content: space-between;
-    margin: 50px auto;
-   
-
 }
 
 @media (max-width:785px){
@@ -213,39 +195,17 @@ margin: auto;
     .ni{
         margin: 16px 0;
     }
-    #peixes{
+    .peixes{
        
-        width: 100%;
-        height: 100%;
+       width: 100%;
+       height: 100%;
+       justify-content: space-between;
        flex-direction: column;
         align-items: center;
-        overflow-y: hidden;
-        justify-content: space-between;
-        margin: 2rem;
+        overflow-x: hidden;
+       margin: 2rem;
        
 }
-#aquarios{
-   
-    width: 100%;
-    height: 100%;
-   flex-direction: column;
-    align-items: center;
-    overflow-y: hidden;
-    justify-content: space-between;
-    margin: 2rem;
-   
-}
 
-#higienie{
-   
-    width: 100%;
-    height: 100%;
-   flex-direction: column;
-    align-items: center;
-    overflow-y: hidden;
-    justify-content: space-between;
-    margin: 2rem;
-   
-}
 }
     
