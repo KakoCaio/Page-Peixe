@@ -3,9 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    list-style: none;
-    text-decoration: none;
+    overflow: hidden;
     max-width: 100%;
+    color: black;
 }
 
 .naveg {
@@ -19,6 +19,8 @@
     transition: all 0.5s;
     position: fixed;
     top: 0;
+    list-style: none;
+    text-decoration: none;
 
 
 }
@@ -27,6 +29,8 @@
     display: flex;
     align-items: center;
     gap: 5rem;
+    list-style: none;
+    text-decoration: none;
 
 
 }
@@ -36,6 +40,8 @@
     background: rgba(5, 53, 227);
     border-radius: 12px;
     border: solid black .2rem;
+    list-style: none;
+    text-decoration: none;
 
 
 }
@@ -45,6 +51,8 @@
     font-size: 20px;
     font-weight: 800;
     transition: all 0.5s;
+    list-style: none;
+    text-decoration: none;
 }
 
 .naveg ul li a:hover {
@@ -84,8 +92,7 @@ body {
     height: 6rem;
 
 }
-
-.ref {
+.cont {
     text-align: center;
     margin: 10rem 40px 2rem 40px;
     max-width: 100%;
@@ -93,19 +100,63 @@ body {
 
 }
 
-.ref h1 {
+.cont h1 {
     font-size: 100px;
     font-family: 'Courier New', Courier, monospace;
 }
+.cont h3{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+}
+.cont{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.list li{
+    text-align: left;
+    font-size: 25px;
+    margin: 20px 30px;
+    line-height: 25px;
+    list-style: square;
+    list-style-position: inside;
+    
+}
+.redes{
+    
+    margin: 50px 50px 10px 50px;
+    
+}
+.redes a{
+    text-decoration:none;
+    font-style: italic;
+    
 
-.ref h3 {
-    font-size: 32px;
-    margin: 30px 110px;
-    text-align: justify center;
-    line-height: 60px;
-    overflow: hidden;
-    max-width: 100%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.redes h6{
+font-size: 22px;
+margin: 7px;
+}
+.l-redes{
+height: 20px;
+width: 20px;
+}
+
+    
+.redes span:hover{
+    background: aqua;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+.redes a:hover{
+    color: rgb(9, 9, 172);
+}
+.none{
+    display: none;
+    font-size: 20px;
 }
 
 @media (max-width:785px) {
@@ -149,20 +200,28 @@ body {
     .ni {
         margin: 16px 0;
     }
-
-    .ref {
-        margin-top: 10rem;
-
-    }
-
-    .ref h1 {
+    .cont h1{
         font-size: 40px;
-
     }
-
-    .ref h3 {
-        font-size: small;
+    .cont h3{
+        font-size: 20px;
+    }
+    .list li{
+        font-size: 15px;
         line-height: normal;
-        margin: 20px;
     }
+.redes h6{
+    font-size: 13px;
+}
+.redes p{
+    font-size: small;
+}
+.redes .Profissional p{
+  display: inline;
+ margin: 0 7px; 
+ 
+}
+.Profissional .none{
+    font-size: 20px;
+}
 }
