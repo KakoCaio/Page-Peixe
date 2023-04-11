@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
     max-width: 100%;
     color: black;
 }
@@ -118,7 +118,7 @@ body {
     text-align: left;
     font-size: 25px;
     margin: 20px 30px;
-    line-height: 25px;
+    
     list-style: square;
     list-style-position: inside;
     
@@ -149,6 +149,7 @@ width: 20px;
     cursor: pointer;
     border-radius: 5px;
     font-weight: bold;
+    transition: all 0.5s;
 
 }
 .redes a:hover{
