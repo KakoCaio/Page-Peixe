@@ -154,6 +154,7 @@ width: 20px;
 }
 .redes a:hover{
     color: rgb(9, 9, 172);
+
 }
 .none{
     display: none;
@@ -214,12 +215,17 @@ width: 20px;
 .redes h6{
     font-size: 13px;
 }
+.redes .l-redes{
+    width: 12px;
+    height: 12px;
+}
 .redes p{
-    font-size: small;
+    font-size: 10px;
 }
 .redes .Profissional p{
   display: inline;
  margin: 0 7px; 
+
  
 }
 .Profissional .none{
